@@ -6,23 +6,23 @@ using FarAwayOverTheHills.Tubbies;
 
 namespace FarAwayOverTheHills.Telephone
 {
-    class TelephoneSubject
+    abstract class TelephoneSubject
     {
-        private List<ITeleTubbies> observers = new List<ITeleTubbies>();
+        private List<ITelephoneObserver> observers = new List<ITelephoneObserver>();
 
-        public void Attach(ITeleTubbies observer)
+        public void Attach(ITelephoneObserver observer)
         {
             observers.Add(observer);
         }
 
-        public void Detatch(ITeleTubbies observer)
+        public void Detatch(ITelephoneObserver observer)
         {
             observers.Remove(observer);
         }
 
         public void Notify(ICommands commands)
         {
-            foreach (ITeleTubbies teleTubbies in observers)
+            foreach (ITelephoneObserver teleTubbies in observers)
             {
                 teleTubbies.Update(commands);
             }

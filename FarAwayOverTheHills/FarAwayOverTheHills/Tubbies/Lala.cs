@@ -5,7 +5,7 @@ using FarAwayOverTheHills.Commands;
 
 namespace FarAwayOverTheHills.Tubbies
 {
-    class Lala : ITeleTubbies
+    class Lala : ITelephoneObserver
     {
         private readonly string _name;
 

@@ -8,18 +8,12 @@ namespace FarAwayOverTheHills.Tubbies
 {
     class TeleTubbie : TelephoneSubject
     {
-        private ITeleTubbies _teleTubbies;
+        private ITelephoneObserver _teleTubbies;
 
-        public TeleTubbie(ITeleTubbies teleTubbies, TelephoneSubject telephone)
+        public TeleTubbie(ITelephoneObserver teleTubbies, TelephoneSubject telephone)
         {
             _teleTubbies = teleTubbies;
             telephone.Attach(_teleTubbies);
-        }
-
-
-        public void Notify(ICommands commands)
-        {
-            _teleTubbies.Update(commands);
         }
 
         public void TeleTubbieDetach(TelephoneSubject testSubject)

@@ -8,7 +8,7 @@ using FarAwayOverTheHills.Telephone;
 
 namespace FarAwayOverTheHills.Tubbies
 {
-    class Dipsy : ITeleTubbies
+    class Dipsy : ITelephoneObserver
     {
         private readonly string _name;
 

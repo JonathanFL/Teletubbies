@@ -7,6 +7,6 @@ namespace FarAwayOverTheHills.Telephone
 {
     interface ITelephone
     {
-        void Update(ITeleTubbies ts);
+        void Update(ITelephoneObserver ts);
     }
 }

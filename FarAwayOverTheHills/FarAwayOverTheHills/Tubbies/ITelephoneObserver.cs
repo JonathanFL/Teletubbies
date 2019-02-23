@@ -6,7 +6,7 @@ using FarAwayOverTheHills.Commands;
 
 namespace FarAwayOverTheHills.Tubbies
 {
-    interface ITeleTubbies
+    interface ITelephoneObserver
     {
         /*void SayHello();
         void Play();

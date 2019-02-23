@@ -9,23 +9,29 @@ namespace FarAwayOverTheHills
     {
         static void Main()
         {
-            TelephoneSubject tlfSub = new TelephoneSubject();
+            TeletubbieTelephone tlfSub = new TeletubbieTelephone();
 
             TeleTubbie dipsy = new TeleTubbie(new Dipsy("Jonathan Dipsy"), tlfSub);
             TeleTubbie Lala = new TeleTubbie(new Lala("test"), tlfSub);
             TeleTubbie tinkyWinky = new TeleTubbie(new TinkyWinky("test"), tlfSub);
 
 
-            tlfSub.Notify(new SayHello());
-            tlfSub.Notify(new Play());
-            tinkyWinky.TeleTubbieDetach(tlfSub);
-            tlfSub.Notify(new HaveDinner());
+            tlfSub.Call(new SayHello());
+            Console.WriteLine("");
+            tlfSub.Call(new Play());
+            Console.WriteLine("");
 
-            tlfSub.Notify(new SayGoodBye());
+            tinkyWinky.TeleTubbieDetach(tlfSub);//tinkyWinky "unsubscribes"
 
-            dipsy.TeleTubbieDetach(tlfSub);
+            tlfSub.Call(new HaveDinner());
+            Console.WriteLine("");
 
-            tlfSub.Notify(new SayHello());
+            tlfSub.Call(new SayGoodBye());
+            Console.WriteLine("");
+
+            dipsy.TeleTubbieDetach(tlfSub); // dipsy "unsubscribes"
+
+            tlfSub.Call(new SayHello());  // only lala says Hello
 
 
             Console.ReadLine();
