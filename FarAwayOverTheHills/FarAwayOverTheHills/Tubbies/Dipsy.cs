@@ -19,6 +19,7 @@ namespace FarAwayOverTheHills.Tubbies
 
         public void Update(ICommands commands)
         {
+            Console.WriteLine("Dipsy says:");
             commands.Command();
         }
     }

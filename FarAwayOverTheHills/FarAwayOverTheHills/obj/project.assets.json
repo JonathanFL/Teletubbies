@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JonathanLydemann\\source\\repos\\FarAwayOverTheHills\\FarAwayOverTheHills\\FarAwayOverTheHills.csproj",
+      "projectUniqueName": "C:\\Users\\JonathanLydemann\\Source\\Repos\\Teletubbies\\FarAwayOverTheHills\\FarAwayOverTheHills\\FarAwayOverTheHills.csproj",
       "projectName": "FarAwayOverTheHills",
-      "projectPath": "C:\\Users\\JonathanLydemann\\source\\repos\\FarAwayOverTheHills\\FarAwayOverTheHills\\FarAwayOverTheHills.csproj",
+      "projectPath": "C:\\Users\\JonathanLydemann\\Source\\Repos\\Teletubbies\\FarAwayOverTheHills\\FarAwayOverTheHills\\FarAwayOverTheHills.csproj",
       "packagesPath": "C:\\Users\\JonathanLydemann\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JonathanLydemann\\source\\repos\\FarAwayOverTheHills\\FarAwayOverTheHills\\obj\\",
+      "outputPath": "C:\\Users\\JonathanLydemann\\Source\\Repos\\Teletubbies\\FarAwayOverTheHills\\FarAwayOverTheHills\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

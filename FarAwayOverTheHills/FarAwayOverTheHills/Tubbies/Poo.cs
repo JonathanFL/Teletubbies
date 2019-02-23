@@ -15,6 +15,7 @@ namespace FarAwayOverTheHills.Tubbies
         }
         public void Update(ICommands commands)
         {
+            Console.WriteLine("Poo says:");
             commands.Command();
         }
     }

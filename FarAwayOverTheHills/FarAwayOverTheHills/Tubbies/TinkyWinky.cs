@@ -7,9 +7,16 @@ namespace FarAwayOverTheHills.Tubbies
 {
     class TinkyWinky : ITeleTubbies
     {
+        private readonly string _name;
+
+        public TinkyWinky(string name)
+        {
+
+        }
         public void Update(ICommands commands)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("TinkyWinky says:");
+            commands.Command();
         }
     }
 }

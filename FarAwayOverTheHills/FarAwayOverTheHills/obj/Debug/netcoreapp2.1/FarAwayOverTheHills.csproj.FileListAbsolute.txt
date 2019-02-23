@@ -9,3 +9,14 @@ C:\Users\JonathanLydemann\source\repos\FarAwayOverTheHills\FarAwayOverTheHills\o
 C:\Users\JonathanLydemann\source\repos\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.dll
 C:\Users\JonathanLydemann\source\repos\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.pdb
 C:\Users\JonathanLydemann\source\repos\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.csprojAssemblyReference.cache
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\bin\Debug\netcoreapp2.1\FarAwayOverTheHills.deps.json
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\bin\Debug\netcoreapp2.1\FarAwayOverTheHills.runtimeconfig.json
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\bin\Debug\netcoreapp2.1\FarAwayOverTheHills.runtimeconfig.dev.json
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\bin\Debug\netcoreapp2.1\FarAwayOverTheHills.dll
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\bin\Debug\netcoreapp2.1\FarAwayOverTheHills.pdb
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.csprojAssemblyReference.cache
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.csproj.CoreCompileInputs.cache
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.AssemblyInfoInputs.cache
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.AssemblyInfo.cs
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.dll
+C:\Users\JonathanLydemann\Source\Repos\Teletubbies\FarAwayOverTheHills\FarAwayOverTheHills\obj\Debug\netcoreapp2.1\FarAwayOverTheHills.pdb

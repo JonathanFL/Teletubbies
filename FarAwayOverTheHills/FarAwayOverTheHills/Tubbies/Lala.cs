@@ -1,29 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using FarAwayOverTheHills.Commands;
 
 namespace FarAwayOverTheHills.Tubbies
 {
     class Lala : ITeleTubbies
     {
-        public void SayHello()
-        {
-            throw new NotImplementedException();
-        }
+        private readonly string _name;
 
-        public void Play()
+        public Lala(string name)
         {
-            throw new NotImplementedException();
-        }
 
-        public void TimeForCustard()
-        {
-            throw new NotImplementedException();
         }
-
-        public void SayByeBye()
+        public void Update(ICommands commands)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Lala says:");
+            commands.Command();
         }
     }
 }
