@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using FarAwayOverTheHills.Commands;
 using FarAwayOverTheHills.Tubbies;
 
@@ -8,21 +6,21 @@ namespace FarAwayOverTheHills.Telephone
 {
     abstract class TelephoneSubject
     {
-        private List<ITelephoneObserver> observers = new List<ITelephoneObserver>();
+        private readonly List<ITelephoneObserver> _observers = new List<ITelephoneObserver>();
 
         public void Attach(ITelephoneObserver observer)
         {
-            observers.Add(observer);
+            _observers.Add(observer);
         }
 
         public void Detatch(ITelephoneObserver observer)
         {
-            observers.Remove(observer);
+            _observers.Remove(observer);
         }
 
         public void Notify(ICommands commands)
         {
-            foreach (ITelephoneObserver teleTubbies in observers)
+            foreach (ITelephoneObserver teleTubbies in _observers)
             {
                 teleTubbies.Update(commands);
             }

@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using FarAwayOverTheHills.Commands;
 
 namespace FarAwayOverTheHills.Tubbies
 {
     class Poo : ITelephoneObserver
     {
-        private readonly string _name;
-
-        public Poo(string name)
-        {
-
-        }
         public void Update(ICommands commands)
         {
             Console.WriteLine("Poo says:");

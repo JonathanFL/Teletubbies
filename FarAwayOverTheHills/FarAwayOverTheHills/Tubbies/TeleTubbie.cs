@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FarAwayOverTheHills.Commands;
-using FarAwayOverTheHills.Telephone;
+﻿using FarAwayOverTheHills.Telephone;
 
 namespace FarAwayOverTheHills.Tubbies
 {
-    class TeleTubbie : TelephoneSubject
+    class TeleTubbie
     {
-        private ITelephoneObserver _teleTubbies;
+        private readonly ITelephoneObserver _teleTubbies;
 
         public TeleTubbie(ITelephoneObserver teleTubbies, TelephoneSubject telephone)
         {

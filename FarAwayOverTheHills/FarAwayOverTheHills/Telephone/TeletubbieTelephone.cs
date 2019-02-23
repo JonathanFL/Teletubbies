@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FarAwayOverTheHills.Commands;
+﻿using FarAwayOverTheHills.Commands;
 
 namespace FarAwayOverTheHills.Telephone
 {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using FarAwayOverTheHills.Commands;
 using FarAwayOverTheHills.Tubbies;
 using FarAwayOverTheHills.Telephone;
@@ -9,13 +10,15 @@ namespace FarAwayOverTheHills
     {
         static void Main()
         {
+            //Subject
             TeletubbieTelephone tlfSub = new TeletubbieTelephone();
 
-            TeleTubbie dipsy = new TeleTubbie(new Dipsy("Jonathan Dipsy"), tlfSub);
-            TeleTubbie Lala = new TeleTubbie(new Lala("test"), tlfSub);
-            TeleTubbie tinkyWinky = new TeleTubbie(new TinkyWinky("test"), tlfSub);
+            //Observers "subscribe" to subject
+            TeleTubbie dipsy = new TeleTubbie(new Dipsy(), tlfSub);
+            TeleTubbie lala = new TeleTubbie(new Lala(), tlfSub);
+            TeleTubbie tinkyWinky = new TeleTubbie(new TinkyWinky(), tlfSub);
 
-
+            //Subject gives global messages
             tlfSub.Call(new SayHello());
             Console.WriteLine("");
             tlfSub.Call(new Play());
@@ -31,7 +34,7 @@ namespace FarAwayOverTheHills
 
             dipsy.TeleTubbieDetach(tlfSub); // dipsy "unsubscribes"
 
-            tlfSub.Call(new SayHello());  // only lala says Hello
+            tlfSub.Call(new SayHello());  // only lala says Hello when being notified
 
 
             Console.ReadLine();
